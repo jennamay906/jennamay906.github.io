@@ -1,4 +1,8 @@
 
+
+
+
+/*Fonts*/
 .quicksand {
 font-family: "Quicksand", serif;
 font-optical-sizing: auto;
@@ -11,7 +15,16 @@ font-style: normal;
     font-style: normal;
 }  
 
-
+/*Palette
+Primary:#03045E
+Secondary:#a1ced6
+Accent:White
+Accent 2: #03045E
+Button-Color: #0077B6
+Background Color#1:#fbf8ee
+Card Color:
+Info-Card Color:
+*/
 
 
 
@@ -27,8 +40,6 @@ body {
     background-color: #fbf8ee;
     color: #333;
     line-height: 1.6;
-    margin; 0
-    padding: 0;
 }
 
 header {
@@ -543,30 +554,30 @@ p {
     }
 }
 
-#Home p {
-    font-size: 40px;
-}
+    #Home p {
+        font-size: 40px;
+    }
 
-#Sale img {
-    max-width: 50%;
-}
+    #Sale img {
+        max-width: 50%;
+    }
 
-#products, #WomensWear, #MensWear {
-    padding: 60px 40px; 
-}
+    #products, #WomensWear, #MensWear {
+        padding: 60px 40px; 
+    }
 
-#products h2 {
-    font-size: 36px;
-}
+    #products h2 {
+        font-size: 36px;
+    }
 
-.product-grid {
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); 
-    gap: 30px; 
-}
+    .product-grid {
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); 
+        gap: 30px; 
+    }
 
-.product-card {
-    max-width: 350px;
-}
+    .product-card {
+        max-width: 350px;
+    }
 
 
 

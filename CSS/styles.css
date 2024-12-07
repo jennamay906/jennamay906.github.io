@@ -197,7 +197,8 @@ footer {
 
 #Sale img {
     max-width: 60%;
-    height: 50%;
+    height: auto;
+    margin: 0 auto;
 }
 
 #WomensWear {

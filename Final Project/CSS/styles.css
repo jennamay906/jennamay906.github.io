@@ -198,6 +198,12 @@ footer {
     height: 50%;
 }
 
+#Sale img {
+    max-width: 60%;
+    height: auto;
+    margin: 0 auto;
+}
+
 #WomensWear {
     background-color: white;  
     text-align: center;

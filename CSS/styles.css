@@ -18,10 +18,13 @@ font-style: normal;
 /*Palette
 Primary:#03045E
 Secondary:#a1ced6
-Accent:White
+Accent: White
 Accent 2: #03045E
+Accent 3:#005f8a
 Button-Color: #0077B6
-Background Color#1:#fbf8ee*/
+Background Color#1:#fbf8ee
+Background Color #2: #d7f2f8
+*/
 
 
 
@@ -96,7 +99,6 @@ h5 {
     font-size: 25px;
     font-weight: bold;
     color: #0077B6;
-
 }
 
 .description .image {
@@ -232,7 +234,7 @@ footer {
 
 .product-card {
     background-color: white;
-    border: 1px solid rgb(214, 226, 231);
+    border: 1px solid #a1ced6;
     border-radius: 8px;
     padding: 20px;
     box-shadow: 0 4px 8px rgba(85, 85, 85, 0.1);
@@ -258,7 +260,7 @@ footer {
 
 .product-description {
     font-size: 16px;
-    color: #7f8c8d;
+    color: #134c5f;
     margin-bottom: 10px;
 }
 
@@ -517,12 +519,12 @@ p {
     }
 
     .testimonials-grid {
-        grid-template-columns: 1fr; /* Switch to one column for smaller screens */
+        grid-template-columns: 1fr;
     }
 
     .testimonial-card {
         max-width: 100%;
-        height: auto; /* Adjust height for better responsiveness */
+        height: auto;
     }
 
     .newsletter {
@@ -542,14 +544,13 @@ p {
     }
 
     .testimonials-grid {
-        grid-template-columns: 1fr; /* Switch to a single column on smaller screens */
+        grid-template-columns: 1fr;
     }
 
     .testimonial-card {
-        max-width: 100%; /* Allow cards to stretch fully in a single column */
-        height: auto; /* Adjust height to fit content */
+        max-width: 100%; 
+        height: auto; 
     }
-}
 
     #Home p {
         font-size: 40px;
@@ -575,7 +576,57 @@ p {
     .product-card {
         max-width: 350px;
     }
+    
+    body {
+        font-size: 17px;
+        padding: 20px 30px;
+    }
 
+    header {
+        padding: 25px 50px;
+        font-size: 1.1rem;
+    }
+
+    nav ul li {
+        margin: 0 18px;
+    }
+
+    nav ul li a {
+        font-size: 19px;
+    }
+
+    h1, h5 {
+        font-size: 90px; 
+    }
+
+    .description {
+        text-align: left;
+        margin: 0 auto;
+        max-width: 1000px; 
+    }
+
+    .description .image {
+        max-width: 550px;
+        margin-right: 20px;
+    }
+
+    .bestsellers {
+        gap: 25px; 
+    }
+
+    .bestsellers .product {
+        max-width: 280px;
+    }
+
+    footer {
+        padding: 25px 30px;
+        font-size: 1rem; 
+    }
+
+    footer p {
+        margin-top: 10px; 
+    }
+}
 
 
 

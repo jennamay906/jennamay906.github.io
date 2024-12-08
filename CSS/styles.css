@@ -10,6 +10,12 @@
     font-style: normal;
 }  
 
+.rubik-bubbles-regular {
+    font-family: "Rubik Bubbles", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}  
+
 /*Palette
 Primary:#2c3e50
 Secondary:#a1ced6
@@ -214,14 +220,14 @@ footer {
     padding: 40px 20px;
     background-color: white;
     text-align: center;
-    font-family:'Quicksand', sans-serif;
+    font-family:'Quicksand', serif;
 }
 
 #products h2 {
     font-size: 32px;
     color: #2c3e50;
     margin-bottom: 30px;
-    font-family:'Quicksand', sans-serif;
+    font-family:'Quicksand', serif;
 }
 
 .product-grid {
@@ -267,24 +273,6 @@ footer {
     font-size: 22px;
     color: #134c5f;
     margin-bottom: 15px;
-}
-
-.add-to-cart {
-    background-color: #0077B6;
-    color: white;
-    padding: 10px 20px;
-    border-radius: 5px;
-    border: none;
-    cursor: pointer;
-    font-size: 16px;
-}
-
-.add-to-cart:hover {
-    background-color: #a1ced6;
-}
-
-.add-to-cart:focus {
-    background-color: #a1ced6;
 }
 
 /*About CSS*/
@@ -483,159 +471,7 @@ p {
         font-weight: 400;
         font-style: normal;
     }  
-    
-    /*Palette
-    Primary:#03045E
-    Secondary:#a1ced6
-    Accent:White
-    Accent 2: #03045E
-    Button-Color: #0077B6
-    Background Color#1:#fbf8ee
-    Card Color:
-    Info-Card Color:
-    */
-    
-    
-    
-    /*Index CSS*/
-    * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-    }
-    
-    body {
-        font-family: 'Quicksand', sans-serif;
-        background-color: #fbf8ee;
-        color: #333;
-        line-height: 1.6;
-    }
-    
-    header {
-        background-color: #a1ced6;
-        color: white;
-        padding: 20px 20px;
-        text-align: center;
-        margin-left: -20px;
-        margin-right: -20px;
-    }
-    
-    nav ul {
-        list-style-type: none;
-        display: flex;
-        justify-content: center;
-        padding: 0;
-    }
-    
-    nav ul li {
-        margin: 0 15px;
-    }
-    
-    nav ul li a {
-        color: white;
-        text-decoration: none;
-        font-size: 18px;
-        text-transform: uppercase;
-        padding: 5px 10px;
-    }
-    
-    nav ul li a:hover {
-        background-color: #0077B6;
-        border-radius: 5px;
-    }
-    
-    h1 {
-        text-align: center;
-        font-size: 80px;
-        margin: 30px 0;
-        color: #0077B6;
-    }
-    
-    h5 {
-        text-align: center;
-        font-size: 80px;
-        margin: 30px 0;
-        color: #0077B6;
-        font-family: "Rubik Bubbles", system-ui;
-    } 
-    
-    
-    
-    .description {
-        text-align: center;
-        margin: 30px 0;
-        font-family:'Quicksand', sans-serif;
-        font-size: 25px;
-        font-weight: bold;
-        color: #0077B6;
-    
-    }
-    
-    .description .image {
-        width: 100%;
-        max-width: 500px;
-        height: auto;
-        border-radius: 8px;
-        margin-top: 20px;
-    }
-    
-    .bestsellers {
-        display: flex; 
-        justify-content: space-around; 
-        gap: 15px;
-        flex-wrap: wrap; 
-        margin: 40px 0;
-    }
-    
-    .bestsellers .product {
-        text-align: center; 
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 10px;
-    }
-    
-    .bestsellers .image {
-        width: 100%;
-        max-width: 250px;
-        height: auto;
-        margin: 10px;
-        border-radius: 8px;
-    }
-    
-    .bestsellers h3 {
-        font-size: 1.2rem;
-        color: #03045E;
-        margin-bottom: 5px;
-    }
-    
-    .bestsellers .price {
-        font-size: 1rem;
-        color: #0077B6;
-        font-weight: bold;
-    }
-    
-    
-    footer {
-        text-align: center;
-        padding: 20px;
-        background-color: #a1ced6;
-        color: white;
-        margin-top: 40px;
-    }
-    
-    .description {
-        display:flex;
-        background-color: #d7f2f8;
-        flex-direction: column;
-        align-items: center;
-        margin-left: 50px;
-        margin-right: 50px;
-        padding: 10px;
-        border-radius: 10px;
-    }
-    
-    
+
     
     /*Products CSS*/
     
@@ -996,7 +832,7 @@ p {
         }
     
         .testimonials-grid {
-            grid-template-columns: 1fr;
+            grid-template-columns: 1fr; 
         }
     
         .testimonial-card {
@@ -1054,7 +890,57 @@ p {
         .product-card {
             max-width: 350px;
         }
+        body {
+            font-size: 17px; 
+            padding: 20px 30px; 
+        }
     
+        header {
+            padding: 25px 50px;
+            font-size: 1.2rem; 
+        }
+    
+        nav ul li {
+            margin: 0 18px;
+        }
+    
+        nav ul li a {
+            font-size: 19px; 
+        }
+    
+        h1, h5 {
+            font-size: 90px;
+        }
+    
+        .description {
+            flex-direction: column; 
+            text-align: left;
+            margin: 0 auto;
+            max-width: 1000px;
+        }
+    
+        .description .image {
+            max-width: 550px;
+            margin-right: 20px;
+        }
+    
+        .bestsellers {
+            gap: 25px; 
+        }
+    
+        .bestsellers .product {
+            max-width: 280px; 
+        }
+    
+        footer {
+            padding: 25px 30px;
+            font-size: 1rem; 
+        }
+    
+        footer p {
+            margin-top: 10px; 
+        }
+    }
     
     
     
